@@ -1,0 +1,126 @@
+{
+  materials: [
+    {
+      name: '12337_Statue_Shiva_decoration',
+      parameters: [
+        {
+          baseColor: '12337_Statue_Shiva_decoration_diff',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.206284,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'F:\\Github Proj\\google-ar-asset-converter\\sceneform_sdk\\default_materials\\obj_material.sfm',
+    },
+    {
+      name: '12337_Statue_Shiva_platform',
+      parameters: [
+        {
+          baseColor: '12337_Statue_Shiva_platform_diff',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'F:\\Github Proj\\google-ar-asset-converter\\sceneform_sdk\\default_materials\\obj_material.sfm',
+    },
+    {
+      name: '12337_Statue_Shiva_body',
+      parameters: [
+        {
+          baseColor: '12337_Statue_Shiva_body_diff',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.206284,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'F:\\Github Proj\\google-ar-asset-converter\\sceneform_sdk\\default_materials\\obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'F:\\Github Proj\\google-ar-asset-converter\\input\\12337_Statue_v1_l1.obj',
+    name: '12337_Statue_v1_l1',
+    recenter: 'root',
+    scale: 0.00094799999999999995,
+  },
+  samplers: [
+    {
+      file: 'F:\\Github Proj\\google-ar-asset-converter\\input\\12337_Statue_Shiva_decoration_diff.jpg',
+      name: '12337_Statue_Shiva_decoration_diff',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '12337_Statue_Shiva_decoration_diff.jpg',
+    },
+    {
+      file: 'F:\\Github Proj\\google-ar-asset-converter\\input\\12337_Statue_Shiva_decoration_spec.jpg',
+      name: '12337_Statue_Shiva_decoration_spec',
+      pipeline_name: '12337_Statue_Shiva_decoration_spec.jpg',
+    },
+    {
+      file: 'F:\\Github Proj\\google-ar-asset-converter\\input\\12337_Statue_Shiva_platform_diff.jpg',
+      name: '12337_Statue_Shiva_platform_diff',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '12337_Statue_Shiva_platform_diff.jpg',
+    },
+    {
+      file: 'F:\\Github Proj\\google-ar-asset-converter\\input\\12337_Statue_Shiva_body_diff.jpg',
+      name: '12337_Statue_Shiva_body_diff',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '12337_Statue_Shiva_body_diff.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
